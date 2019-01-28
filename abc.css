@@ -1,9 +1,43 @@
-#body { 
-	background-color:#badcad;}
-#ue ul{
-	list-style-type : none;
-  display : flex;
-  row-gap : 30px;}
+#* {
+	margin : 0; padding: 0;
+}
+
 #timer {
-width : 100px;
-height : 100px;}
+	width : 100px; 
+	height : 100px;}
+
+#body {
+	background-color : #cccccc;
+	background-image : url("./img/bg_body.png");
+}
+
+#pagebody {
+	background-color : #ffffff;
+	width : 1000px; margin : 0 auto;
+}
+
+#menu li {
+	list-style-type : none ;	
+	display : inline ; 
+	float : left;}
+
+#menu ul {
+	width : 960px; 
+	height : 50px;
+	margin : 0px 20px;}
+
+#menu li a {display : block; 
+	width : 240px; 
+	height : 35px;
+	background-color : navy;
+	color : #ffffff ;
+	padding : 15px 0px 0px 0px;
+	text-align : center;
+	text-decoration : none;
+	background-image : url("./img/bg_menu1.png");
+	background-repeat : no-repeat;}
+
+#menu li a:hover {
+	background-color : #000066;
+	background-image : url("./img/bg_menu2.png");
+}
