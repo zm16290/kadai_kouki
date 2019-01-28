@@ -1,9 +1,9 @@
-#body { background-color:#badcad;}
-#ooya { width : 150px;
-        height : 60px;}
-#heya { width : 150px;
-           height : 60px;}
+#body { 
+	background-color:#badcad;}
 #ue ul{
 	list-style-type : none;
   display : flex;
   row-gap : 30px;}
+#timer {
+width : 100px;
+height : 100px;}
