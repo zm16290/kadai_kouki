@@ -1,0 +1,17 @@
+table.profile {
+  width:680px;
+  border-collapse:collapse;
+}
+table.profile th {
+  width:150px;
+  padding:10px;
+  text-align:center;
+  white-space:nowrap;
+  background-color:#ccccee;
+  border-bottom:dotted #666666 1px;
+}
+table.profile td {
+  padding:10px;
+  background-color:#eeeeff;
+  border-bottom:dotted #666666 1px;
+}
