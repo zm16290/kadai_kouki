@@ -1,13 +1,88 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>後期最終課題</title>
-    <link rel="stylesheet" href="abc.css">
-        <script src="time.js"></script>
-  </head>
-  <body>
-    <h1>大学３年生時代</h1>
-   <img src="./img/timer.png" id="timer" onclick="setTimeout('time()',3000)">
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>自己紹介｜後期最終課題</title>
+  <link rel="stylesheet" href="abc.css">
+  <link rel="stylesheet" href="table.css">
+
+</head>
+
+<body>
+  <div id="pagebody">
+    
+    <div id="header">
+     <h1><a href="index.html"><img src="./img/logo.png" alt="後期課題"></a></h1>
+    </div>
+    
+    <ul id="menu">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="syoukai.html">自己紹介</a></li>
+      <li><a href="daigaku.html">大学でやったこと</a></li>
+      <li><a href="kouki.html">後期授業でやったこと</a></li>
+    </ul>
+    
+    <div id="img_index">
+    <img src="./img/yama.png" alt="後期にやったこと">
+    </div>
+    
+    <div id="submenu">
+    <h2>自己紹介</h2>
+        <ul>
+      <li><a href="#info001">変数・引数などの練習</a></li>
+      <li><a href="#info002">出身学校</a></li>
+      <li><a href="#info003">取得資格</a></li>
+    </ul>
+    </div>
+    
+    <div id="info">
+  <h3 id="info001">変数・引数などの練習</h3>
+  <h4>変数の練習</h4>
+  <!--ex6-5.js-->
+  <input type="button" value="あいさつ" onclick="sayhello65();">
+  <input type="button" value="太郎" onclick="taro65();">
+  <input type="button" value="花子" onclick="hanako65();">
+
+  <h4>引数の練習</h4>
+  <!--ex6-7.js-->
+  <input type="button" value="あいさつ" onclick="sayhello67();">
+  <input type="button" value="太郎" onclick="someone('太郎');">
+  <input type="button" value="花子" onclick="someone('花子');">
+  <input type="button" value="レイ" onclick="someone('レイ');">
+  <input type="button" value="シンジ" onclick="someone('シンジ');">
+  <input type="button" value="アスカ" onclick="someone('アスカ');">
+
+  <h4>JavaScriptによる変更の練習</h4>
+  <!--ex06-8.js-->
+  <input type="button" value="あいさつ" onclick="sayhello68();">
+  <input type="button" value="太郎" onclick="taro68();">
+  <input type="button" value="花子" onclick="hanako68();">
+  <p id="who">最初はworld</p>
+
+  <h4>JavaScriptによるテキストの変更</h4>
+  <!--ex06-9.js-->
+  <div id="txt1">
+    <input type="button" value="テキストの変更" onclick="txtchange1();">城西大学
+  </div><br>
+      
+  <!--ex1997.js-->
+  <input type="button" value="真顔" onclick="face1();">
+  <input type="button" value="笑顔" onclick="face2();">
+  <div id="face"><img src="./img/ochanoma_mu.png" alt="顔" id="kao1"></div>
+  <br>
+<hr>
+  <h3 id="info002">出身学校</h3>
+     
+<hr>
+  <h3 id="info003">取得資格</h2>
+     
+<hr>
+    </div>
+      <div id="footer">
+    <small>ookadoの作品</small>
+  </div>
+  </div>
+</body>
 </html>
+   <img src="./img/timer.png" id="timer" onclick="setTimeout('time()',3000)">
